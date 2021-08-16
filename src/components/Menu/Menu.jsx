@@ -12,15 +12,15 @@ import '../../assets/css/bootstrap-grid.min.css';
 
 const Menu = (props) => {
 
+    const toggleMenu = (e) => {
+        document.querySelector(".mainmenu").classList.remove("active");
+        document.querySelector(".mainmenuBtn").classList.remove("disable");
+    }
+
     return (
-        <div className="mainmenu a">
+        <div className="mainmenu">
             <div className="avatar">
-                <a href="#" className="hideMenu" onClick={(e) => {
-                    e.preventDefault();
-                    document.querySelector(".mainmenu").classList.remove("active");
-                    document.querySelector(".mainmenuBtn").classList.remove("disable");
-                }
-                }><i className="fad fa-times"></i></a>
+                <a href="#" className="hideMenu" onClick={toggleMenu}><i className="fad fa-times"></i></a>
                 <div className="avatarNameProfession">
                     <h1>Abror <br /> Abdusalomov</h1>
                     <h3>Web Developer</h3>
@@ -28,21 +28,32 @@ const Menu = (props) => {
             </div>
             <nav>
                 <ul>
-                    <li><NavLink className="portfolLink" to={'/'} onClick={() => {
-                        document.querySelector(".mainmenu").classList.remove("active");
-                        document.querySelector(".mainmenuBtn").classList.remove("disable");
-                    }
-                    }>Главная</NavLink></li>
-                    <li><a href="#aboutme" className="portfolLink">Обо мне</a></li>
-                    <li><a href="#education" className="portfolLink">Учеба</a></li>
-                    <li><a href="#workExperience" className="portfolLink">Рабочий стаж</a></li>
-                    <li><a href="#mySkills" className="portfolLink">Навыки</a></li>
-                    <li><NavLink className="portfolLink" to={'/portfolio'} onClick={() => {
-                        document.querySelector(".mainmenu").classList.remove("active");
-                        document.querySelector(".mainmenuBtn").classList.remove("disable");
-                    }
-                    }>Портфолио</NavLink></li>
-                    <li><a href="#contact" className="portfolLink">Контакты</a></li>
+                    <li>
+                        {props.show
+                            ? <NavLink className="portfolLink" to={'/'} onClick={toggleMenu}>Обо мне</NavLink>
+                            : <a href="#aboutme" className="portfolLink" onClick={toggleMenu}>Обо мне</a>}
+                    </li>
+                    <li>
+                        {props.show
+                            ? <NavLink className="portfolLink" to={'/'} onClick={toggleMenu}>Учеба</NavLink>
+                            : <a href="#education" className="portfolLink" onClick={toggleMenu}>Учеба</a>}
+                    </li>
+                    <li>
+                        {props.show
+                            ? <NavLink className="portfolLink" to={'/'} onClick={toggleMenu}>Рабочий стаж</NavLink>
+                            : <a href="#workExperience" className="portfolLink" onClick={toggleMenu}>Рабочий стаж</a>}
+                    </li>
+                    <li>
+                        {props.show
+                            ? <NavLink className="portfolLink" to={'/'} onClick={toggleMenu}>Навыки</NavLink>
+                            : <a href="#mySkills" className="portfolLink" onClick={toggleMenu}>Навыки</a>}
+                    </li>
+                    <li><NavLink className="portfolLink" to={'/portfolio'} onClick={toggleMenu}>Портфолио</NavLink></li>
+                    <li>
+                        {props.show
+                            ? <NavLink className="portfolLink" to={'/'} onClick={toggleMenu}>Контакты</NavLink>
+                            : <a href="#contact" className="portfolLink" onClick={toggleMenu}>Контакты</a>}
+                    </li>
                 </ul>
             </nav>
         </div>

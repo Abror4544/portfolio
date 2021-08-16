@@ -8,6 +8,7 @@ import '../../assets/css/bootstrap-grid.min.css';
 import me from '../../assets/images/Portret.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Menu from '../Menu/Menu';
 
 const Main = (props) => {
 
@@ -18,6 +19,7 @@ const Main = (props) => {
     const show = false;
     return (
         <>
+            <Menu show={show} />
             <Header show={show} />
             <section id="aboutme" className="aboutMe">
                 <div className="container">

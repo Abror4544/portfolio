@@ -24,6 +24,7 @@ import '../../assets/css/bootstrap.min.css';
 import '../../assets/css/bootstrap-grid.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Menu from '../Menu/Menu';
 
 const Portfolio = (props) => {
 
@@ -34,6 +35,7 @@ const Portfolio = (props) => {
     const show = true;
     return (
         <>
+            <Menu show={show} />
             <Header show={show} />
             <section id="projects" className="projects">
                 <div className="container">
