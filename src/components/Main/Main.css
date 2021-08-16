@@ -1,0 +1,1233 @@
+
+
+.aboutMe {
+    padding-top: 150px;
+    width: 100%;
+    background: #f9f9f9;
+}
+
+.aboutMe h2 {
+    border-bottom: 2px solid red;
+    width: 135px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-family: var(--r-s);
+    font-size: 32px;
+    color: #3e3e3e;
+}
+
+.aboutMe p {
+    font-family: var(--r-m);
+    font-size: 16px;
+    color: #3e3e3e;
+}
+
+.aboutMe .listAboutmeli {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.712);
+    padding: 20px 0;
+    padding-left: 10px;
+    background: #fff;
+    font-family: var(--r-m);
+    font-size: 18px;
+    color: #3e3e3e;
+}
+
+.aboutMe .listAboutmeli span {
+    font-family: var(--r-s);
+}
+
+.aboutMe img {
+    width: 100%;
+}
+
+.workExperience {
+    padding-top: 78px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.workExperience h2 {
+    border-bottom: 2px solid red;
+    width: 220px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-family: var(--r-s);
+    font-size: 32px;
+    color: #3e3e3e;
+}
+
+.workDialog {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    padding-bottom: 40px;
+    height: 452px;
+}
+
+.workDialog .circleBlock {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.workDialog .circle {
+    border-radius: 100%;
+    border: 2px solid #000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+
+.workDialog .circleTwo {
+    border-radius: 100%;
+    border: 2px solid #000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+}
+
+.workDialog .miniCircle {
+    border-radius: 100%;
+    border: 2px solid #000;
+    background: #fb6470;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.workDialog .lineCircle {
+    position: absolute;
+    background: #000;
+    width: 2px;
+    height: 280px;
+    margin-top: 20%;
+}
+
+.workDialog .lineCircleTwo {
+    position: absolute;
+    background: #000;
+    width: 2px;
+    height: 96px;
+    margin-top: 187%;
+}
+
+.leftFirst {
+    background: #353541;
+    align-self: flex-end;
+    border-radius: 10px;
+    max-width: 473px;
+}
+
+
+.leftFirst h4 {
+    font-family: var(--r-m);
+    font-size: 22px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.leftFirst .workDate {
+    font-family: var(--r-r);
+    font-size: 18px;
+    color: #fb6470;
+    text-transform: uppercase;
+}
+
+.leftFirst .workDescription {
+    font-family: var(--r-r);
+    color: #fff;
+    font-size: 16px;
+}
+
+.rightFirst {
+    background: #353541;
+    align-self: flex-start;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+
+.rightFirst h4 {
+    font-family: var(--r-m);
+    font-size: 22px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.rightFirst .workDate {
+    font-family: var(--r-r);
+    font-size: 18px;
+    color: #fb6470;
+    text-transform: uppercase;
+}
+
+.rightFirst .workDescription {
+    font-family: var(--r-r);
+    color: #fff;
+    font-size: 16px;
+}
+
+.education {
+    padding-top: 78px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.education h2 {
+    border-bottom: 2px solid red;
+    width: 100px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-family: var(--r-s);
+    font-size: 32px;
+    color: #3e3e3e;
+}
+
+.skills {
+    background: #1d1d24;
+    padding: 64px 0;
+}
+
+.skills h2 {
+    border-bottom: 2px solid red;
+    width: 190px;
+    padding-bottom: 15px;
+    font-family: var(--r-s);
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.skills h4 {
+    font-family: var(--r-m);
+    font-size: 18px;
+    color: #fff;
+}
+
+.skillDescription {
+    display: flex;
+}
+
+.skillDescription p {
+    font-family: var(--r-m);
+    font-size: 14px;
+    color: #fff;
+    margin-top: -9px;
+}
+
+.skill {
+    height: 6px;
+    width: 265px;
+    margin-right: 20px;
+}
+
+.htmlSkill {
+    background: linear-gradient(to right, #fb6470 95%, #bcbcbe 10%);
+}
+
+
+.cssSkill {
+    background: linear-gradient(to right, #fb6470 90%, #bcbcbe 10%);
+}
+
+.jsSkill {
+    background: linear-gradient(to right, #fb6470 90%, #bcbcbe 10%);
+}
+
+
+.phpSkill {
+    background: linear-gradient(to right, #fb6470 20%, #bcbcbe 5%);
+}
+
+
+.photoshopSkill {
+    background: linear-gradient(to right, #fb6470 40%, #bcbcbe 20%);
+}
+
+
+.wpSkill {
+    background: linear-gradient(to right, #fb6470 60%, #bcbcbe 5%);
+}
+
+.jqSkill {
+    background: linear-gradient(to right, #fb6470 90%, #bcbcbe 10%);
+}
+
+.bsSkill {
+    background: linear-gradient(to right, #fb6470 75%, #bcbcbe 5%);
+}
+
+
+.gulpSkill {
+    background: linear-gradient(to right, #fb6470 85%, #bcbcbe 15%);
+}
+
+
+
+.reactSkill {
+    background: linear-gradient(to right, #fb6470 70%, #bcbcbe 15%);
+}
+
+.rxSkill {
+    background: linear-gradient(to right, #fb6470 50%, #bcbcbe 15%);
+}
+
+.rrSkill {
+    background: linear-gradient(to right, #fb6470 65%, #bcbcbe 15%);
+}
+
+.gitSkill {
+    background: linear-gradient(to right, #fb6470 80%, #bcbcbe 15%);
+}
+
+.bemSkill {
+    background: linear-gradient(to right, #fb6470 75%, #bcbcbe 15%);
+}
+
+.tsSkill {
+    background: linear-gradient(to right, #fb6470 30%, #bcbcbe 15%);
+}
+
+.bxSkill {
+    background: linear-gradient(to right, #fb6470 40%, #bcbcbe 15%);
+}
+
+.ocSkill {
+    background: linear-gradient(to right, #fb6470 40%, #bcbcbe 15%);
+}
+
+.jlSkill {
+    background: linear-gradient(to right, #fb6470 40%, #bcbcbe 15%);
+}
+
+
+main {
+    padding: 100px 0 80px;
+}
+
+main h2 {
+    font-family: var(--r-m);
+    font-size: 30px;
+    color: #3e3e3e;
+    margin-bottom: 25px;
+}
+
+main .messageCol {
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+main .shortInfo {
+    padding: 11px 0 11px 11px;
+    border: 1px solid #353541;
+    outline-style: none;
+    width: 325px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.shortInfo::-webkit-input-placeholder {
+    font-family: var(--r-mi);
+    font-size: 14px;
+    color: #3e3e3ed0;
+}
+
+main .message {
+    padding: 11px 0 112px 11px;
+    border: 1px solid #353541;
+    outline-style: none;
+    width: 325px;
+    height: 145px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.message::-webkit-input-placeholder {
+    font-family: var(--r-mi);
+    font-size: 14px;
+    color: #3e3e3ed0;
+}
+
+.sendBtn {
+    font-family: var(--r-m);
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 15px;
+    background: #fb6470;
+    border: none;
+    outline-style: none;
+    margin-left: 89%;
+}
+
+.sendBtn:hover {
+    background: #c9444f;
+}
+
+.locationBlock,
+.emailBlock,
+.phoneBlock {
+    display: flex;
+}
+
+.infoCol i {
+    font-size: 25px;
+    margin-right: 45px;
+    margin-left: 45px;
+    color: grey;
+}
+
+.infoCol h4 {
+    font-family: var(--r-m);
+    font-size: 22px;
+    color: #353434;
+}
+
+.infoCol p {
+    font-family: var(--r-m);
+    font-size: 16px;
+    color: #3e3e3ec9;
+}
+
+.dws {
+    position: absolute;
+    top: 92%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.pulse,
+.phone {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pulse {
+    background: #c9444f;
+    position: relative;
+    transition: 0.5s;
+    text-align: left;
+    padding: 2px;
+}
+
+.phone {
+    font-size: 10px;
+    line-height: 50px;
+    animation: phone 0.9s ease-in-out infinite;
+    right: 65%;
+    top: 10%;
+}
+
+.text {
+    position: absolute;
+    opacity: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    top: 28px;
+    font-size: 14px;
+    transform: scaleX(-1);
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.pulse a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.phone i {
+    transition: 0.5s ease-in-out;
+    color: #fff;
+}
+
+.pulse:hover {
+    background: #c9444f;
+    width: 90px;
+    height: 90px;
+}
+
+.pulse:hover i {
+    transition: 0.5s ease-in-out;
+    transform: scale(0);
+}
+
+.pulse:hover .text {
+    transform: scaleX(1);
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.pulse:hover::before,
+.pulse:hover::after {
+    content: "";
+    position: absolute;
+    border: 1px solid #c9444f;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: pulse 1.8s linear infinite;
+    opacity: 0;
+}
+
+.pulse:hover::after {
+    animation-delay: 0.5s;
+}
+
+@keyframes phone {
+    0%,
+    100% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+
+@media (max-width: 1199px) {
+
+    .workDialog .lineCircle {
+        height: 280px;
+        margin-top: 23%;
+    }
+
+    .workDialog .lineCircleTwo {
+        height: 96px;
+        margin-top: 223%;
+    }
+
+    main .shortInfo {
+        width: 250px;
+        height: 35px;
+        margin-bottom: 20px;
+    }
+
+    main .message {
+        width: 250px;
+        height: 145px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .sendBtn {
+        padding: 12px 15px;
+        margin-left: 83%;
+    }
+
+}
+
+@media (max-width: 1099px) {
+
+    .aboutMe h2 {
+        width: 130px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .aboutMe p {
+        font-size: 14px;
+    }
+
+    .aboutMe .listAboutmeli {
+        padding: 20px 0;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .workExperience h2 {
+        width: 207px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .rightFirst h4 {
+        font-size: 20px;
+        padding-top: 18px;
+    }
+
+    .rightFirst .workDate {
+        font-size: 16px;
+    }
+
+    .rightFirst .workDescription {
+        font-size: 14px;
+    }
+
+    .rightFirst {
+        max-width: 400px;
+    }
+
+    .leftFirst h4 {
+        font-size: 20px;
+        padding-top: 18px;
+    }
+
+    .leftFirst .workDate {
+        font-size: 16px;
+    }
+
+    .leftFirst .workDescription {
+        font-size: 14px;
+    }
+
+    .leftFirst {
+        max-width: 400px;
+    }
+
+    .education h2 {
+        width: 90px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .skills h2 {
+        width: 180px;
+        padding-bottom: 15px;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    main h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .workDialog .lineCircle {
+        height: 280px;
+        margin-top: 23%;
+    }
+
+    .workDialog .lineCircleTwo {
+        height: 96px;
+        margin-top: 223%;
+    }
+
+    main .shortInfo {
+        width: 250px;
+        height: 35px;
+        margin-bottom: 20px;
+    }
+
+    main .message {
+        width: 250px;
+        height: 145px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .sendBtn {
+        padding: 12px 15px;
+        margin-left: 83%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .aboutMe h2 {
+        width: 120px;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .aboutMe p {
+        font-size: 14px;
+    }
+
+    .aboutMe .listAboutmeli {
+        padding: 18px 0;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .workExperience h2 {
+        width: 195px;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .rightFirst h4 {
+        font-size: 18px;
+        padding-top: 17px;
+    }
+
+    .rightFirst .workDate {
+        font-size: 15px;
+    }
+
+    .rightFirst .workDescription {
+        font-size: 14px;
+    }
+
+    .rightFirst {
+        max-width: 380px;
+    }
+
+    .leftFirst h4 {
+        font-size: 18px;
+        padding-top: 17px;
+    }
+
+    .leftFirst .workDate {
+        font-size: 15px;
+    }
+
+    .leftFirst .workDescription {
+        font-size: 14px;
+    }
+
+    .leftFirst {
+        max-width: 380px;
+    }
+
+    .education h2 {
+        width: 85px;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .skills h2 {
+        width: 150px;
+        padding-bottom: 12px;
+        font-size: 25px;
+        margin-bottom: 28px;
+    }
+
+    .skills h4 {
+        font-size: 16px;
+    }
+
+    main h2 {
+        font-size: 26px;
+        margin-bottom: 23px;
+    }
+
+    .workDialog .lineCircle {
+        height: 280px;
+        margin-top: 23%;
+    }
+
+    .workDialog .lineCircleTwo {
+        height: 96px;
+        margin-top: 223%;
+    }
+
+    main .shortInfo {
+        width: 250px;
+        height: 35px;
+        margin-bottom: 18px;
+    }
+
+    main .message {
+        width: 250px;
+        height: 145px;
+        margin-bottom: 18px;
+        margin-left: 18px;
+    }
+
+    .sendBtn {
+        padding: 10px 13px;
+        margin-left: 83%;
+    }
+
+    .infoCol i {
+        font-size: 23px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .infoCol h4 {
+        font-size: 20px;
+    }
+
+    .infoCol p {
+        font-size: 14px;
+    }
+
+    .pulse,
+    .bloc,
+    .phone {
+        width: 45px;
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .aboutMe {
+        padding-bottom: 80px;
+    }
+
+    .aboutMe h2 {
+        width: 120px;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .aboutMe p {
+        font-size: 14px;
+    }
+
+    .aboutMe .listAboutmeli {
+        padding: 18px 0;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .workExperience h2 {
+        width: 195px;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .rightFirst h4 {
+        font-size: 18px;
+        padding-top: 17px;
+    }
+
+    .rightFirst .workDate {
+        font-size: 15px;
+    }
+
+    .rightFirst .workDescription {
+        font-size: 14px;
+    }
+
+    .rightFirst {
+        max-width: 380px;
+    }
+
+    .leftFirst h4 {
+        font-size: 18px;
+        padding-top: 17px;
+    }
+
+    .leftFirst .workDate {
+        font-size: 15px;
+    }
+
+    .leftFirst .workDescription {
+        font-size: 14px;
+    }
+
+    .leftFirst {
+        max-width: 380px;
+    }
+
+    .education h2 {
+        width: 85px;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .skills h2 {
+        width: 150px;
+        padding-bottom: 12px;
+        font-size: 25px;
+        margin-bottom: 28px;
+    }
+
+    .skills h4 {
+        font-size: 16px;
+    }
+
+    main h2 {
+        font-size: 26px;
+        margin-bottom: 23px;
+        text-align: center;
+    }
+
+    .workDialog .lineCircle {
+        height: 297px;
+        margin-top: 12%;
+    }
+
+    .workDialog .lineCircleTwo {
+        height: 98px;
+        margin-top: 148%;
+    }
+
+    .workDialog .circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .workDialog .miniCircle {
+        width: 15px;
+        height: 15px;
+    }
+
+    .workDialog .circleTwo {
+        width: 30px;
+        height: 30px;
+    }
+
+    main .shortInfo {
+        width: 500px;
+        height: 35px;
+        margin-bottom: 18px;
+    }
+
+    main .message {
+        width: 500px;
+        height: 145px;
+        margin-bottom: 18px;
+        margin-left: 0;
+    }
+
+    main .infoBlock {
+        text-align: center;
+    }
+
+    main .messageBlock {
+        text-align: center;
+    }
+
+    .sendBtn {
+        padding: 10px 13px;
+        margin-left: 71%;
+    }
+
+    .infoCol i {
+        font-size: 23px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .infoCol h4 {
+        font-size: 20px;
+    }
+
+    .infoCol p {
+        font-size: 14px;
+    }
+
+    .pulse,
+    .bloc,
+    .phone {
+        width: 45px;
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .aboutMe {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .aboutMe h2 {
+        width: 85px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .aboutMe p {
+        font-size: 12px;
+    }
+
+    .aboutMe .listAboutmeli {
+        padding: 10px 0;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .aboutMe img {
+        margin-top: 30px;
+    }
+
+
+    .workDialog .circleBlock {
+        display: none;
+    }
+
+  
+
+    .workExperience h2 {
+        width: 137px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .rightFirst h4 {
+        font-size: 16px;
+        padding-top: 17px;
+    }
+
+    .rightFirst .workDate {
+        font-size: 12px;
+    }
+
+    .rightFirst .workDescription {
+        font-size: 12px;
+    }
+
+    .rightFirst {
+        max-width: 350px;
+    }
+
+    .leftFirst h4 {
+        font-size: 16px;
+        padding-top: 17px;
+    }
+
+    .leftFirst .workDate {
+        font-size: 12px;
+    }
+
+    .leftFirst .workDescription {
+        font-size: 12px;
+    }
+
+    .leftFirst {
+        max-width: 350px;
+        margin-bottom: 50px;
+    }
+
+    .education h2 {
+        width: 60px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .skills h2 {
+        width: 95px;
+        padding-bottom: 5px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .skills h4 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .skillDescription {
+        justify-content: center;
+    }
+
+    main h2 {
+        font-size: 20px;
+        margin-bottom: 23px;
+        text-align: center;
+    }
+
+    .workExperience {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .education {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .workDialog {
+        padding-top: 0;
+        padding-bottom: 0;
+        border-top: 1px solid #3c3c3c;
+    }
+
+    .workDialog .lineCircle {
+        height: 297px;
+        margin-top: 12%;
+    }
+
+    .workDialog .lineCircleTwo {
+        height: 98px;
+        margin-top: 148%;
+    }
+
+    .workDialog .circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .workDialog .miniCircle {
+        width: 15px;
+        height: 15px;
+    }
+
+    .workDialog .circleTwo {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    main {
+        padding: 50px 0;
+    }
+
+    main .shortInfo {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 12px;
+    }
+
+    main .message {
+        width: 100%;
+        height: 145px;
+        margin-bottom: 18px;
+        margin-left: 0;
+    }
+
+    main .infoBlock {
+        text-align: center;
+    }
+
+    main .messageBlock {
+        text-align: center;
+    }
+
+    .sendBtn {
+        padding: 8px 10px;
+        margin-left: 85%;
+        font-size: 12px;
+    }
+
+    .infoCol i {
+        font-size: 20px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .infoCol h4 {
+        font-size: 16px;
+    }
+
+    .infoCol p {
+        font-size: 12px;
+    }
+
+    .pulse,
+    .bloc,
+    .phone {
+        width: 45px;
+        height: 45px;
+        font-size: 5px;
+    }
+
+    .text {
+        top: 28px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .aboutMe h2 {
+        width: 75px;
+        padding-bottom: 3px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .aboutMe .listAboutmeli {
+        padding: 10px 0;
+        font-size: 13px;
+        padding-left: 10px;
+    }
+
+    .workExperience h2 {
+        width: 124px;
+        padding-bottom: 3px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .leftFirst h4 {
+        font-size: 14px;
+        padding-top: 12px;
+    }
+
+    .leftFirst {
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .rightFirst h4 {
+        font-size: 14px;
+        padding-top: 12px;
+    }
+
+    .rightFirst {
+        max-width: 300px;
+    }
+
+    .sendBtn {
+        padding: 8px 10px;
+        margin-left: 80%;
+        font-size: 12px;
+    }
+
+    .infoCol h4 {
+        font-size: 14px;
+    }
+
+    .infoCol i {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .pulse,
+    .bloc,
+    .phone {
+        width: 35px;
+        height: 35px;
+        font-size: 5px;
+    }
+
+    .phone {
+        left: -10px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .sendBtn {
+        margin-left: 0;
+    }
+}

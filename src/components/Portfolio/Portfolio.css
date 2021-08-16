@@ -1,0 +1,182 @@
+
+
+.projects {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    width: 100%;
+    background: #f9f9f9;
+}
+
+.projectsLeft {
+    border-right: 2px solid #cdccca;
+}
+
+.projects .img {
+    text-align: center;
+    background: #e3e3e3;
+    overflow: hidden;
+}
+
+.projects h2 {
+    border-bottom: 2px solid red;
+    width: 208px;
+    padding-bottom: 15px;
+    margin-bottom: 70px;
+    font-family: var(--r-s);
+    font-size: 32px;
+    color: #3e3e3e;
+}
+
+.projectBlockRed .prDescription {
+    background: red;
+    padding: 10px;
+}
+
+.projectBlockBlack .prDescription {
+    background: #000;
+    padding: 10px;
+}
+
+.projectBlockRed h3 {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--r-m);
+    font-size: 22px;
+}
+
+.projectBlockBlack h3 {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--r-m);
+    font-size: 22px;
+}
+
+.projectBlockRed a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.projectBlockBlack a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.projectBlockRed h3:hover {
+    color: #000;
+}
+
+.projectBlockBlack h3:hover {
+    color: red;
+}
+
+.projects p {
+    font-family: var(--r-m);
+    font-size: 16px;
+    color: #fff;
+}
+
+.projects img {
+    width: 100%;
+    transition: 0.5s;
+    height: 300px;
+}
+
+.projects img:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 1099px) {
+
+    .projects h2 {
+        width: 195px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .projects h3 {
+        font-size: 20px;
+    }
+
+    .projects p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 992px) {
+    .projects h2 {
+        width: 182px;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .projects p {
+        font-size: 16px;
+    }
+
+    .projects h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .projects {
+        padding-bottom: 80px;
+    }
+
+    .projects h2 {
+        width: 182px;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .projects p {
+        font-size: 16px;
+    }
+
+    .projects h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .projectsLeft {
+        border-right: none;
+    }
+
+    .projects {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .projects h2 {
+        width: 130px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .projects p {
+        font-size: 14px;
+    }
+
+    .projects h3 {
+        font-size: 16px;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+    .projects img {
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+    }
+}

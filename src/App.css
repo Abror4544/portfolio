@@ -1,0 +1,63 @@
+@import "./assets/css/fonts.css";
+
+:root {
+    --r-s: Raleway-SemiBold;
+    --r-r: Raleway-Regular;
+    --r-m: Raleway-Medium;
+    --r-mi: Raleway-MediumItalic;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline-style: none !important;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+.row {
+    justify-content: center;
+}
+
+::-moz-selection {
+    background: #000 !important;
+    color: red;
+}
+
+::selection {
+    background: #000 !important;
+    color: red;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #000;
+    box-shadow: inset 0 0 5px #000;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+}
+
+.mainmenuAphorism {
+    display: none;
+}
+
+.mainmenuAphorism.show {
+    display: block;
+}

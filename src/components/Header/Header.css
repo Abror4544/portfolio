@@ -1,0 +1,187 @@
+
+header {
+    background: url(../../assets/images/2.jpg) no-repeat top center / cover;
+    background-attachment: fixed;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+header .mainmenuBtn {
+    position: fixed;
+    outline-style: none;
+    border: none;
+    color: red;
+    background: none;
+    font-size: 30px;
+    margin: 10px 0 0 20px;
+    z-index: 1;
+    top: 1%;
+}
+
+header .mainmenuBtn.disable{
+    display: none;
+}
+
+header h1 {
+    font-family: var(--r-s);
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 25px;
+}
+
+header h4 {
+    font-family: var(--r-m);
+    font-size: 22px;
+    color: #ffffffbe;
+    text-align: center;
+    padding-bottom: 53px;
+}
+
+header .mainmenuAphorism {
+    padding-bottom: 113px;
+    text-align: center;
+}
+
+header .mainmenuTitle {
+    padding-bottom: 113px;
+    text-align: center;
+    display: none;
+}
+
+header .mainmenuTitle.show{
+    display: block;
+}
+
+header a {
+    border-radius: 10px;
+    background: red;
+    padding: 15px 40px;
+    font-family: var(--r-m);
+    font-size: 22px;
+    transition: 0.5s;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+header a:hover {
+    text-decoration: none;
+    background: grey;
+    color: #fff;
+}
+
+
+@media (max-width: 1199px) {
+    header h1 {
+        font-size: 45px;
+        padding-top: 105px;
+        padding-bottom: 25px;
+    }
+
+}
+
+@media (max-width: 1099px) {
+    header a {
+        padding: 12px 35px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    header h1 {
+        font-size: 30px;
+        padding-top: 105px;
+        padding-bottom: 25px;
+    }
+    header a {
+        padding: 12px 32px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    header a {
+        padding: 12px 28px;
+        font-size: 16px;
+    }
+    
+    header h1 {
+        font-size: 40px;
+        padding-top: 115px;
+        padding-bottom: 15px;
+    }
+    
+    header h4 {
+        font-size: 14px;
+        padding-bottom: 40px;
+    }
+    header h1 {
+        font-size: 25px;
+        padding-top: 100px;
+        padding-bottom: 23px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    header a {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 35px;
+        padding-top: 115px;
+        padding-bottom: 5px;
+    }
+
+    header h4 {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    header h1 {
+        font-size: 22px;
+        padding-top: 90px;
+        padding-bottom: 5px;
+    }
+
+    header h4 {
+        font-size: 12px;
+        padding-bottom: 18px;
+    }
+
+    
+}
+
+
+@media (max-width: 450px) {
+    header h1 {
+        font-size: 18px;
+        padding-top: 90px;
+        padding-bottom: 5px;
+    }
+
+    header h4 {
+        font-size: 10px;
+        padding-bottom: 18px;
+    }
+
+    header a {
+        font-size: 12px;
+    }
+
+}
+
+
+.loader{
+    position: absolute;
+    left: 50%;
+}
+

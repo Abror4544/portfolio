@@ -1,0 +1,214 @@
+.mainmenu {
+    width: 272px;
+    background: #353541;
+    padding-bottom: 0;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    transition: .5s;
+    left: -272px;
+}
+
+.mainmenu.active{
+    left: 0;
+}
+
+.avatar {
+    background: url(../../assets/images/1.jpg) no-repeat center center / cover;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.avatar a {
+    color: rgba(255, 0, 0, 0.863);
+    font-size: 25px;
+    align-self: flex-start;
+    margin-left: 20px;
+    outline-style: none;
+}
+
+.avatar .avatarNameProfession {
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.avatar h1 {
+    font-family: var(--r-m);
+    font-size: 32px;
+    color: #ffffffc9;
+}
+
+.avatar h3 {
+    font-family: var(--r-m);
+    font-size: 16px;
+    color: #ffffffc9;
+}
+
+.mainmenu li {
+    border: solid 1px #282835;
+}
+
+.mainmenu li:hover {
+    background: #282835;
+}
+
+.mainmenu li a {
+    align-items: center;
+    font-family: var(--r-m);
+    font-size: 18px;
+    color: #fff;
+    outline-style: none;
+    display: block;
+    padding: 20px 0 20px 30px;
+}
+
+.mainmenu li a:hover {
+    text-decoration: none;
+}
+
+
+@media (max-width: 1199px) {
+    .mainmenu {
+        width: 240px;
+        left: -240px;
+    }
+
+    .avatar {
+        height: 209px;
+    }
+
+    .avatar .avatarNameProfession {
+        margin-left: 18px;
+    }
+
+    .avatar h1 {
+        font-size: 28px;
+    }
+
+    .avatar h3 {
+        font-size: 16px;
+    }
+
+
+    .mainmenu li a {
+        font-size: 16px;
+        padding: 18px 0 18px 28px;
+    }
+}
+
+
+@media (max-width: 992px) {    
+    .avatar {
+        height: 175px;
+    }
+    
+    .avatar .avatarNameProfession {
+        margin-left: 15px;
+    }
+    
+    .avatar h1 {
+        font-size: 25px;
+    }
+    
+    .avatar h3 {
+        font-size: 16px;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    .mainmenu {
+        width: 225px;
+        left: -225px;
+    }
+
+    .avatar {
+        height: 175px;
+    }
+
+    .avatar .avatarNameProfession {
+        margin-left: 0;
+    }
+
+    .avatar h1 {
+        font-size: 25px;
+    }
+
+    .avatar h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mainmenu {
+        width: 100%;
+        left: -100%;
+    }
+
+    .avatar {
+        height: 153px;
+    }
+
+    .avatar h1 {
+        font-size: 22px;
+    }
+
+    .avatar h3 {
+        font-size: 15px;
+    }
+
+    .mainmenu li a {
+        font-size: 14px;
+        padding: 14px 0 14px 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .avatar {
+        height: 153px;
+    }
+
+    .avatar h1 {
+        font-size: 20px;
+    }
+
+    .avatar h3 {
+        font-size: 14px;
+    }
+
+    .mainmenu li a {
+        font-size: 14px;
+        padding: 20px 0 20px 15px;
+    }
+
+    .avatar a {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .avatar {
+        height: 146px;
+    }
+
+    .avatar h1 {
+        font-size: 15px;
+    }
+
+    .avatar h3 {
+        font-size: 12px;
+    }
+
+    .mainmenu li a {
+        font-size: 12px;
+    }
+
+    .avatar a {
+        margin-left: 15px;
+    }
+}
