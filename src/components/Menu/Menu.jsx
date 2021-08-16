@@ -13,7 +13,7 @@ import '../../assets/css/bootstrap-grid.min.css';
 const Menu = (props) => {
 
     return (
-        <div className="mainmenu">
+        <div className="mainmenu a">
             <div className="avatar">
                 <a href="#" className="hideMenu" onClick={(e) => {
                     e.preventDefault();

@@ -2,13 +2,13 @@ import React from "react";
 import "./App.css";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Menu from "./components/Menu/Menu";
-import { BrowserRouter, Route, Switch} from "react-router-dom";
+import { Route, BrowserRouter, Switch} from "react-router-dom";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
 
 const App = (props) => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Menu />
       <Switch>
         <Route exact path="/portfolio" render={() => <Portfolio />} />
